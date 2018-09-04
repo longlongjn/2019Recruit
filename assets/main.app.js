@@ -912,8 +912,8 @@ var Cool = {
         }, getImageThumb: function (a, b, c) {
             if (c = c || "", b = b || "", "100%" === a) return "";
             if (a = parseInt(a, 10), 0 >= a || isNaN(a)) return "";
-            var d = "@!user_image_", e = Math.ceil(a / 100);
-            return 0 === e ? "" : c && c.indexOf(".png") > -1 ? "" : ("imggroup" === b && Cool.util.checkIsIphone() && (e = Math.floor(a / 100), e > 3 && (e = 3)), 10 >= e ? d + 100 * e + "x1" : "@!user_image_1000x1")
+            var d = "@!user_image_", e = Math.ceil(a / 10);
+            return 0 === e ? "" : c && c.indexOf(".png") > -1 ? "" : ("imggroup" === b && Cool.util.checkIsIphone() && (e = Math.floor(a / 10), e > 3 && (e = 3)), 10 >= e ? d + 300 * e + "x1" : "@!user_image_1000x1")
         }, getNowTimeString: function () {
             var a = new Date;
             return this.formateDate(a)
