@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "siyuan_normal";
+    src: url("siyuan_normal.woff") format("woff"), /* chrome, firefox */ url("siyuan_normal.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */ url("siyuan_normal.svg") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*
+@font-face {
+    font-family:"siyuan_normal";
+    src: url("siyuan_normal.eot"); IE9
+    font-style: normal;
+    font-weight: normal;
+} */
